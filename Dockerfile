@@ -10,7 +10,7 @@ RUN rm ./requirements.txt
 
 RUN mkdir selise
 
-COPY inference_img.jpg ./inference_img.jpg
+COPY bird.jpg ./bird.jpg
 COPY EfficientNetB0.pth ./EfficientNetB0.pth
 COPY config.py ./config.py
 COPY utils.py ./utils.py
