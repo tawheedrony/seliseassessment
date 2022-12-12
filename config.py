@@ -29,6 +29,6 @@ ENS_MODEL_1_PATH = f'{OUTPUT_DIR}/ResNext50.pth'
 ENS_MODEL_2_PATH = f'{OUTPUT_DIR}/EfficientNetB0.pth'
 
 #inference
-IMG_PATH = os.path.join(ROOT_DIR+'/inference_img.jpg')
+IMG_PATH = os.path.join(ROOT_DIR+'/bird.jpg')
 
 print(IMG_PATH)
